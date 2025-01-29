@@ -67,9 +67,6 @@ def main():
     cwd = os.path.dirname(os.path.abspath(__file__))
     folder_path = os.path.join(cwd, "data")
 
-    print(folder_path)
-    print(os.listdir(folder_path))
-
     for file in os.listdir(folder_path):
 
         print(file)
