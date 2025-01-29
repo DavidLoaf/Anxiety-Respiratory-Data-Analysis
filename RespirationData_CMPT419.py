@@ -46,7 +46,7 @@ def plotData(cwd, folder_path, file):
         plt.plot(time_downsampled, resp_downsampled, color="red", linewidth=0.8)
         plt.ylabel("Amplitude of Respiration")
         plt.xlabel("Time (seconds)")
-        plt.title("Respiration Signal (Multi-Threaded LOESS Smoothed)")
+        plt.title("Respiration Signal")
         plt.ion()
         plt.show()
         
