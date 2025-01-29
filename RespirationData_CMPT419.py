@@ -48,7 +48,6 @@ def plotData(cwd, folder_path, file):
         plt.xlabel("Time (seconds)")
         plt.title("Respiration Signal")
         plt.ion()
-        plt.show()
         
         filename = file.removesuffix(".mat")
         image_path = os.path.join(cwd, "images", filename)
